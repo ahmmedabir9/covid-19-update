@@ -2,7 +2,8 @@
   "name": "corona-update",
   "version": "0.1.0",
   "engines": {
-    "node": "12.16.1"
+    "node": "12.16.1",
+    "npm": "6.14.4"
   },
   "private": true,
   "dependencies": {
@@ -39,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/ahmmedabir9/covid-19-update.git",
+  "author": "ahmmedabir <ahmmedabir9@gmail.com>",
+  "license": "MIT"
 }
