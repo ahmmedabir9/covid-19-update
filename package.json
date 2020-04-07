@@ -2,7 +2,7 @@
   "name": "corona-update",
   "version": "0.1.0",
   "engines": {
-    "node": "13.12.0"
+    "node": "6.11.1"
   },
   "private": true,
   "dependencies": {
