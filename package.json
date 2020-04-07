@@ -41,7 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
   "repository": "https://github.com/ahmmedabir9/covid-19-update.git",
   "author": "ahmmedabir <ahmmedabir9@gmail.com>",
   "license": "MIT"
