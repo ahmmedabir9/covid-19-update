@@ -6,6 +6,7 @@
     "npm": "6.14.4"
   },
   "private": true,
+  "homepage": "https://ahmmedabir9.github.io/covid-19-update",
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@testing-library/jest-dom": "^4.2.4",
@@ -24,7 +25,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -43,5 +46,8 @@
   },
   "repository": "https://github.com/ahmmedabir9/covid-19-update.git",
   "author": "ahmmedabir <ahmmedabir9@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
